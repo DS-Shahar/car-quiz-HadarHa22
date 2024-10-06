@@ -3,7 +3,7 @@ public class myTest {
 	 
 	Public boolean illegal(int maxSpeed) {
 		if(speed> maxSpeed || privateCar == true) {
-			return true
+			return true;
 		}
 		return false;
 	}
